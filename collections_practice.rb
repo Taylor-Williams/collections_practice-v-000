@@ -32,3 +32,11 @@ end
 def find_a(nums)
   nums.select { |word| word.start_with?("a")}
 end
+
+def sum_array(nums)
+  sum = 0
+  nums.each do |num|
+    sum += num
+  end
+  sum
+end
