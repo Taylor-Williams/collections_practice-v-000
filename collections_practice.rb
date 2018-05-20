@@ -44,7 +44,7 @@ def sum_array(nums)
 end
 
 def add_s(num)
-  num.enum_with_index.map do |word, index|
+  num.each_with_index.map do |word, index|
     if (index != 1)
       word = word + "s"
     end
