@@ -12,7 +12,7 @@ end
 
 def swap_elements(nums)
   third = nums[2]
-  nums[1] = nums[2]
+  nums[2] = nums[1]
   nums[1] = third
   nums
 end
