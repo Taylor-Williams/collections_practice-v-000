@@ -43,7 +43,7 @@ end
 
 def add_s(num)
   num.each_with_index do |word, index|
-    if index != 1
+    if (index != 1)
       word = word + "s"
     end
     word
