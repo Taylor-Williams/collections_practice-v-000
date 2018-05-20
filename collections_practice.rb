@@ -16,3 +16,7 @@ def swap_elements(nums)
   nums[1] = third
   nums
 end
+
+def reverse_array(nums)
+  nums.reverse
+end
