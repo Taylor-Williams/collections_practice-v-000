@@ -26,4 +26,5 @@ def kesha_maker(nums)
     word_array = word.to_a
     word_array[2] = '$'
     word_array.join
+  end
 end
