@@ -22,10 +22,9 @@ def reverse_array(nums)
 end
 
 def kesha_maker(nums)
-  nums.each do |word|
+  nums = nums.each do |word|
     words = word.chars
     words[2] = "$"
-    binding.pry
     words.join
   end
 end
