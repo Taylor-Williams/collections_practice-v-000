@@ -23,8 +23,8 @@ end
 
 def kesha_maker(nums)
   nums.each do |word|
-    word_array = word.split
-    word_array[2] = '$'
-    word_array.join
+    words = word.chars
+    words[2] = "$"
+    words.join
   end
 end
