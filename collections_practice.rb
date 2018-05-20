@@ -30,5 +30,5 @@ def kesha_maker(nums)
 end
 
 def find_a(nums)
-  nums.map { |word| word.start_with?("a") }
+  nums.collect { |word| word.start_with?("a") }
 end
