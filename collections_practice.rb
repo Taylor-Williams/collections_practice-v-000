@@ -20,3 +20,10 @@ end
 def reverse_array(nums)
   nums.reverse
 end
+
+def kesha_maker(nums)
+  nums.each do |word|
+    word_array = word.to_a
+    word_array[2] = '$'
+    word_array.join
+end
