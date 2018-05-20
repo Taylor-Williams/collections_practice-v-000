@@ -25,6 +25,7 @@ def kesha_maker(nums)
   nums = nums.each do |word|
     words = word.chars
     words[2] = "$"
+    binding.pry
     words.join
   end
 end
