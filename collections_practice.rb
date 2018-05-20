@@ -28,3 +28,7 @@ def kesha_maker(nums)
     words.join
   end
 end
+
+def find_a(nums)
+  nums.map { |word| word.start_with("a") }
+end
